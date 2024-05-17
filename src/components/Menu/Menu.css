@@ -1,0 +1,31 @@
+#navigation {
+  border-bottom: 1px solid #d4d4d4;
+  height: 144px;
+  z-index: 1000;
+}
+
+#button-teklif {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 138px;
+  height: 47.5px;
+  background: #313131;
+  color: #fff;
+  font-size: 18px;
+  line-height: 47.5px;
+  border-radius: 7px;
+  transition: background 0.5s;
+}
+
+#button-teklif:hover {
+  background: #2260ff;
+}
+
+.nav-item a {
+  color: #313131;
+  font-size: 16px;
+  font-style: normal;
+  line-height: 54px;
+}
