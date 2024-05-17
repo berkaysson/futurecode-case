@@ -44,6 +44,7 @@
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   transition: transform 0.3s ease, background 0.3s;
+  will-change: transform;
 }
 
 .btn-iletişim-container:hover .btn-iletişim{

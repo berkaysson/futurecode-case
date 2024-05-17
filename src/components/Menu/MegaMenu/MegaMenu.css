@@ -13,6 +13,8 @@
   overflow: hidden;
   animation: slideUp 0.5s ease-out forwards;
   font-family: "Inter", sans-serif;
+  will-change: transform;
+  transition-delay: 300ms;
 }
 
 .megamenu.active {
@@ -88,6 +90,7 @@
   right: 0;
   padding: 13px;
   transition: all 0.3s;
+  will-change: transform;
 }
 
 .megamenu-banner-content,
