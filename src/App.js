@@ -1,6 +1,9 @@
+import Menu from "./components/Menu/Menu";
+
 function App() {
   return (
-    <div>
+    <div className="">
+      <Menu />
     </div>
   );
 }
