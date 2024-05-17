@@ -16,7 +16,7 @@
   font-size: 18px;
   line-height: 47.5px;
   border-radius: 7px;
-  transition: background 0.5s;
+  transition: background 0.3s ease-in-out;
 }
 
 #button-teklif:hover {
