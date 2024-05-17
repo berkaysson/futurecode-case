@@ -22,9 +22,9 @@
 
 /* Carousel Indicators */
 
-.carousel-indicators{
-    justify-content: flex-start !important;
-    margin-bottom: 48px !important;
+.carousel-indicators {
+  justify-content: flex-start !important;
+  margin-bottom: 48px !important;
 }
 
 .carousel-indicators [data-bs-target] {
@@ -33,7 +33,7 @@
   border-radius: 100%;
   position: relative;
   background-color: #f1f1f100 !important;
-  border-top: none !important;
+  border: none !important;
 }
 
 .carousel-indicators [data-bs-target]::before {
@@ -50,4 +50,8 @@
 
 .carousel-indicators .active {
   border: 2px solid white !important;
+}
+
+.carousel-indicators [data-bs-target]:hover {
+  opacity: 1;
 }
