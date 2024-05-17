@@ -1,0 +1,122 @@
+.megamenu {
+  display: block;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 100%;
+  transition: all 0.3s ease-in-out;
+  background: #fff;
+  border-bottom: 1px solid #d4d4d4;
+  border-left: 1px solid #d4d4d4;
+  border-right: 1px solid #d4d4d4;
+  max-height: 0;
+  overflow: hidden;
+  animation: slideUp 0.5s ease-out forwards;
+  font-family: "Inter", sans-serif;
+}
+
+.megamenu.active {
+  animation: slideDown 0.5s ease-out forwards;
+}
+
+.dropdown-header span {
+  color: #18233e;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.22px;
+  margin-left: 9px;
+}
+
+.megamenu-column {
+  margin-top: 32px;
+  max-width: 300px;
+}
+
+.dropdown-item:hover {
+  text-decoration: underline;
+}
+
+.megamenu-banner {
+  background-image: url(../../../assets/images/rectangle-2996-resized.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 356px;
+  width: 269px;
+  margin-top: 32px;
+  position: relative;
+}
+
+.megamenu-banner::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(9, 159, 73, 0.6);
+  opacity: 0;
+  transition: opacity 0.3s;
+  z-index: 1;
+}
+
+.megamenu-banner:hover::before {
+  opacity: 1;
+}
+
+.megamenu-banner:hover .megamenu-banner-triangle {
+  transform: scale(1.4);
+  translate: -10% -10%;
+}
+
+.megamenu-banner-content {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 15px;
+  font-size: 24px;
+  font-weight: 700;
+  color: #fff;
+  font-family: "Inter", sans-serif;
+}
+
+.megamenu-banner-triangle {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 13px;
+  transition: all 0.3s;
+}
+
+.megamenu-banner-content,
+.megamenu-banner-triangle {
+  z-index: 2;
+}
+
+@keyframes slideDown {
+  0% {
+    max-height: 0;
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+  100% {
+    max-height: 500px;
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideUp {
+  0% {
+    max-height: 500px;
+    opacity: 1;
+    transform: translateY(0);
+  }
+  100% {
+    max-height: 0;
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+}
