@@ -24,6 +24,31 @@
   color: #fff;
   font-size: 20px;
   font-weight: 400;
+} 
+
+.btn-iletişim {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 50px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  border: 1px solid #fff;
+  background: rgba(204, 204, 204, 0.5);
+  backdrop-filter: blur(2px);
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: normal;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  transition: transform 0.3s ease, background 0.3s;
+}
+
+.btn-iletişim-container:hover .btn-iletişim{
+    background-color: #062D94;
+    transform: translateY(-10px);
 }
 
 /* Carousel Indicators */
