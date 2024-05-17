@@ -1,5 +1,11 @@
 /* Carousel Caption */
 
+.carousel-caption {
+  top: 15%;
+  right: 0;
+  left: 0;
+}
+
 .carousel-caption-shape {
   height: 196px;
   width: 45px;
@@ -57,22 +63,22 @@
 }
 
 /* Carousel Controls */
-.carousel-control-prev, 
+.carousel-control-prev,
 .carousel-control-next {
-    top: 50% !important;
-    bottom: 50% !important;
-    opacity: 1 !important;
+  top: 50% !important;
+  bottom: 50% !important;
+  opacity: 1 !important;
 }
 
-.carousel-control-prev-icon, 
+.carousel-control-prev-icon,
 .carousel-control-next-icon {
-    transition: transform 0.4s ease-in-out;
+  transition: transform 0.4s ease-in-out;
 }
 
 .carousel-control-prev:hover .carousel-control-prev-icon {
-    transform: translateX(-8px);
+  transform: translateX(-8px);
 }
 
 .carousel-control-next:hover .carousel-control-next-icon {
-    transform: translateX(8px);
+  transform: translateX(8px);
 }
