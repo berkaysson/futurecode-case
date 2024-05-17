@@ -1,35 +1,32 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import React, { useCallback, useState } from "react";
+import React, { useEffect, useState } from "react";
 import "./Menu.css";
 import Logo from "../Logo/Logo";
 import MegaMenu from "./MegaMenu/MegaMenu";
 
-const debounce = (func, delay) => {
-  let timer;
-  return (...args) => {
-    if (timer) clearTimeout(timer);
-    timer = setTimeout(() => {
-      func(...args);
-    }, delay);
-  };
-};
-
 const Menu = () => {
   const [isMegaMenuActive, setIsMegaMenuActive] = useState(false);
 
-  const handleMouseEnter = useCallback(
-    debounce(() => {
-      setIsMegaMenuActive(true);
-    }, 200),
-    []
-  );
+  let timer;
 
-  const handleMouseLeave = useCallback(
-    debounce(() => {
+  const handleMouseEnter = () => {
+    clearTimeout(timer);
+    setIsMegaMenuActive(true);
+  };
+
+  const handleMouseLeave = () => {
+    timer = setTimeout(() => {
       setIsMegaMenuActive(false);
-    }, 300),
-    []
-  );
+    }, 300);
+  };
+
+  useEffect(() => {
+    return () => {
+      clearTimeout(timer);
+    };
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
+  
   return (
     <nav
       id="navigation"
