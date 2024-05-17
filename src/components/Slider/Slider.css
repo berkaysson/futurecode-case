@@ -1,0 +1,23 @@
+/* Carousel Caption */
+
+.carousel-caption-shape {
+  height: 196px;
+  width: 45px;
+  border-left: white 6px solid;
+  border-top: white 6px solid;
+  border-bottom: white 6px solid;
+}
+
+.carousel-caption-text h5 {
+  color: #fff;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.carousel-caption-text p {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+/* Carousel Indicators */
