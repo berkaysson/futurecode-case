@@ -1,22 +1,24 @@
-import SliderImage from "../../assets/images/slider1.png";
+import SliderImage1 from "../../assets/images/slider1.png";
+import SliderImage2 from "../../assets/images/slider2.png";
+import SliderImage3 from "../../assets/images/slider3.png";
 import "./Slider.css";
 import SliderItem from "./SliderItem";
 
 const SLIDER_ITEMS = [
   {
-    imageSrc: SliderImage,
+    imageSrc: SliderImage1,
     imageAlt: "Slider Image",
     title: "First slide label",
     caption: "Some representative placeholder content for the first slide.",
   },
   {
-    imageSrc: SliderImage,
+    imageSrc: SliderImage2,
     imageAlt: "Slider Image",
     title: "Second slide label",
     caption: "Some representative placeholder content for the second slide.",
   },
   {
-    imageSrc: SliderImage,
+    imageSrc: SliderImage3,
     imageAlt: "Slider Image",
     title: "Third slide label",
     caption: "Some representative placeholder content for the third slide.",
