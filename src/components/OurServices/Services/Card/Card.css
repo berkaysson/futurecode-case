@@ -1,6 +1,6 @@
 .service-card {
-  height: 247px !important;
-  width: 375px !important;
+  height: 204px !important;
+  width: 309px !important;
   position: relative;
   overflow: hidden;
 }
@@ -23,10 +23,10 @@
   position: absolute;
   bottom: 0;
   left: 0;
-  width: 55px;
-  height: 45px;
-  margin-bottom: 28px;
-  margin-left: 37px;
+  width: 45.432px;
+  height: 37.171px;
+  margin-bottom: 25px;
+  margin-left: 31px;
   transition: all 0.4s ease-in;
   will-change: transform;
 }
@@ -49,11 +49,11 @@
 .b-card-title {
   color: #fff;
   font-family: Roboto;
-  font-size: 28px;
+  font-size: 24px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  margin-left: 37px;
+  margin-left: 31px;
 }
 
 /* Variant 2 */
@@ -65,7 +65,7 @@
   left: 0;
   bottom: 0;
   right: 0;
-  width: 222px;
+  width: 182px;
   background: #e71339;
   opacity: 0;
   visibility: hidden;
@@ -75,7 +75,7 @@
 .b-card-text {
   color: #fff;
   font-family: Roboto;
-  font-size: 18px;
+  font-size: 16px;
   font-style: normal;
   font-weight: 400;
 }
@@ -83,8 +83,8 @@
 /* Hover */
 
 .service-card:hover .vector {
-  width: 35.985px;
-  height: 29.442px;
+  width: 29.625px;
+  height: 24.239px;
   transform: rotate(-45deg);
   margin-bottom: 15px;
   margin-left: 10px;
@@ -101,7 +101,7 @@
 }
 
 .service-card:hover .service-card-img {
-  left: 222px;
-  width: 153px;
+  left: 182px;
+  width: 126px;
   transform: scale(1);
 }

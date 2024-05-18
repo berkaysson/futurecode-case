@@ -4,7 +4,7 @@ import { services } from "./serviceData";
 
 const Services = () => {
   return (
-    <div className="d-flex flex-row flex-wrap gap-xxl-5 gap-3">
+    <div className="d-flex flex-row flex-wrap gap-xxl-4 gap-3">
       {services.map((service) => (
         <Card
           key={service.title}

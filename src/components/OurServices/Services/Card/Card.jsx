@@ -2,7 +2,7 @@ import "./Card.css";
 
 const Card = ({ title, description, imgSrc, imgAlt }) => {
   return (
-    <div className="col-sm-3 col-xs-12 col-md-3 mb-xxl-5 mb-lg-4 mb-md-3 mb-2 service-card">
+    <div className="col-sm-3 col-xs-12 col-md-3 mb-xxl-5 mb-lg-4 mb-3 service-card">
       <img src={imgSrc} className="service-card-img" alt={imgAlt} />
       <div className="variant-1">
         <div className="d-flex flex-column align-items-start justify-content-start mt-4">
@@ -13,8 +13,8 @@ const Card = ({ title, description, imgSrc, imgAlt }) => {
           ))}
         </div>
       </div>
-      <div className="variant-2 ps-3 pt-4">
-        <p className="b-card-text pe-3">{description}</p>
+      <div className="variant-2 ps-3 pt-3">
+        <p className="b-card-text">{description}</p>
       </div>
       <svg
         xmlns="http://www.w3.org/2000/svg"
