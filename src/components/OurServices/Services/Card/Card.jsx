@@ -2,7 +2,7 @@ import "./Card.css";
 
 const Card = ({ title, description, imgSrc, imgAlt }) => {
   return (
-    <div className="col-sm-3 col-xs-12 col-md-3 mb-5 service-card">
+    <div className="col-sm-3 col-xs-12 col-md-3 mb-xxl-5 mb-lg-4 mb-md-3 mb-2 service-card">
       <img src={imgSrc} className="service-card-img" alt={imgAlt} />
       <div className="variant-1">
         <div className="d-flex flex-column align-items-start justify-content-start mt-4">

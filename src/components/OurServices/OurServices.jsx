@@ -18,7 +18,7 @@ const OurServices = () => {
         </svg>
         <h5>Kaliteli, Güvenilir, Tam Zamanında, Çözüm Odaklı Hizmetler</h5>
       </div>
-      <div className="mt-4">
+      <div className="mt-xxl-4 mt-3">
         <Services />
       </div>
     </div>

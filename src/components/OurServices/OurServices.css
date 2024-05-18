@@ -23,3 +23,11 @@
   line-height: 44.606px;
   margin-top: 16px;
 }
+
+@media (max-width: 768px) {
+  #services {
+    margin-top: 48px;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+}
