@@ -12,7 +12,7 @@ const SliderItem = ({ imageSrc, imageAlt, title, caption }) => {
             <p>{caption}</p>
           </div>
         </div>
-        <div className="btn-iletişim-container">
+        <div className="btn-iletişim-container d-inline-block float-start">
           <button className="d-flex mt-lg-5 mt-sm-4 btn-iletişim">İletişime Geç</button>
         </div>
       </div>
