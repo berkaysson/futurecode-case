@@ -1,0 +1,101 @@
+.service-card {
+  height: 247px !important;
+  width: 375px !important;
+  position: relative;
+  overflow: hidden;
+}
+
+.service-card-img {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  object-fit: cover;
+  transform: scale(1.05);
+}
+
+.vector {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 55px;
+  height: 45px;
+  margin-bottom: 28px;
+  margin-left: 37px;
+}
+
+/* Variant 1 */
+
+.variant-1 {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: rgba(231, 19, 57, 0.6);
+  opacity: 1;
+  visibility: visible;
+}
+
+.b-card-title {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: 37px;
+}
+
+/* Variant 2 */
+
+.variant-2 {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 222px;
+  background: #e71339;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.b-card-text {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+/* Hover */
+
+.service-card:hover .vector {
+  width: 35.985px;
+  height: 29.442px;
+  transform: rotate(-45deg);
+  margin-bottom: 15px;
+  margin-left: 10px;
+}
+
+.service-card:hover .variant-1 {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.service-card:hover .variant-2 {
+  opacity: 1;
+  visibility: visible;
+}
+
+.service-card:hover .service-card-img {
+  left: 222px;
+  width: 153px;
+  transform: scale(1);
+}
