@@ -16,7 +16,7 @@ const MegaMenuColumn = ({ title, items, type }) => {
       </h2>
       <ul className="list-unstyled ms-3">
         {items.map((item, index) => (
-          <li key={index} className="mt-3">
+          <li key={index} className="mt-xxl-3 mt-2">
             <a className="dropdown-item" href="#">
               {item}
               {type === "green" && <Icon />}

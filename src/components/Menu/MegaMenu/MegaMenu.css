@@ -98,6 +98,14 @@
   z-index: 2;
 }
 
+/* Responsive */
+
+@media (max-width: 1400px) {
+  .megamenu-column {
+    margin-top: 12px;
+  }
+}
+
 @keyframes slideDown {
   0% {
     max-height: 0;

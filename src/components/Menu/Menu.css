@@ -29,3 +29,9 @@
   font-style: normal;
   line-height: 54px;
 }
+
+@media (max-width: 1440px) {
+  #navigation {
+    height: 100px;
+  }
+}

@@ -38,9 +38,9 @@ const MEGAMENU_ITEMS = [
 const MegaMenu = ({ isActive }) => {
   return (
     <div className={`megamenu ${isActive ? "active" : ""}`}>
-      <div className="row d-flex justify-content-center pb-5">
-        <div className="row col-md-7 pb-2">
-          <div className="d-flex flex-row flex-wrap gap-5">
+      <div className="row d-flex justify-content-center pb-2 pb-xxl-5">
+        <div className="row col-7 pb-2">
+          <div className="d-flex flex-row flex-wrap gap-1 gap-xxl-5">
             {MEGAMENU_ITEMS.map((item, index) => (
               <MegaMenuColumn
                 key={"MegaMenuColumn" + index}
@@ -51,7 +51,7 @@ const MegaMenu = ({ isActive }) => {
             ))}
           </div>
         </div>
-        <div className="col-md-3">
+        <div className="col-3">
           <MegaMenuBanner />
         </div>
       </div>

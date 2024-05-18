@@ -34,7 +34,7 @@ const Menu = () => {
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
     >
-      <div className="container container-fluid">
+      <div className="container-fluid container-xxl">
         <Logo />
         <ul className="nav justify-content-end">
           <li className="nav-item d-flex align-items-center">
@@ -42,32 +42,32 @@ const Menu = () => {
               Teklif Al
             </button>
           </li>
-          <li className="nav-item font-semi-bold ms-4">
+          <li className="nav-item font-semi-bold ms-2 ms-xxl-4">
             <a className="nav-link" href="#">
               Kurumsal
             </a>
           </li>
-          <li className="nav-item ms-2">
+          <li className="nav-item ms-1 ms-xxl-2">
             <a className="nav-link" href="#">
               Lojistik Hizmetlerimiz
             </a>
           </li>
-          <li className="nav-item ms-2">
+          <li className="nav-item ms-1 ms-xxl-2">
             <a className="nav-link" href="#">
               Kariyer
             </a>
           </li>
-          <li className="nav-item ms-2">
+          <li className="nav-item ms-1 ms-xxl-2">
             <a className="nav-link" href="#">
               İletişim
             </a>
           </li>
-          <li className="nav-item ms-2">
+          <li className="nav-item ms-1 ms-xxl-2">
             <a className="nav-link" href="#">
               Blog
             </a>
           </li>
-          <li className="nav-item ms-2">
+          <li className="nav-item ms-1 ms-xxl-2">
             <a className="nav-link" href="#">
               TR
             </a>

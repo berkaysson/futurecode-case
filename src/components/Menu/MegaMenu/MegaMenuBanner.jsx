@@ -3,8 +3,8 @@ import "./MegaMenu.css";
 
 const MegaMenuBanner = () => {
   return (
-    <div className="container container-fluid ms-5">
-      <div className="megamenu-banner ms-5">
+    <div className="container container-fluid ms-xxl-5">
+      <div className="megamenu-banner ms-xxl-5">
         <div className="megamenu-banner-content">
           <div className="megamenu-banner-title">
             Yeşil Lojistik <IconLeaf />
