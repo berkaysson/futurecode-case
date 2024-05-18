@@ -16,7 +16,6 @@ Follow these steps to set up and run the project locally:
 
    ```bash
    git clone https://github.com/berkaysson/futurecode-case.git
-   cd task-site
    ```
 
 2. Install the dependencies:
