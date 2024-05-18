@@ -1,0 +1,25 @@
+#services {
+  margin-top: 84px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+#services-title {
+  display: flex;
+  flex-direction: column;
+}
+
+#services-title > h3 {
+  color: #e71339;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+#services-title > h5 {
+  color: #000;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 44.606px;
+  margin-top: 16px;
+}
