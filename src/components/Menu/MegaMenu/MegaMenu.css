@@ -104,6 +104,26 @@
   .megamenu-column {
     margin-top: 12px;
   }
+
+  .megamenu-banner {
+    margin-top: 12px;
+  }
+}
+
+@media (max-width: 992px) {
+  .megamenu-banner {
+    /* preserve ratio of 0.756 */
+    height: 270px;
+    width: 205px;
+  }
+
+  .megamenu-banner-content {
+    font-size: 18px;
+  }
+
+  .dropdown-header span {
+    font-size: 16px;
+  }
 }
 
 @keyframes slideDown {

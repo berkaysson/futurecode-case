@@ -47,27 +47,27 @@ const Menu = () => {
               Kurumsal
             </a>
           </li>
-          <li className="nav-item ms-1 ms-xxl-2">
+          <li className="nav-item ms-lg-1 ms-xxl-2">
             <a className="nav-link" href="#">
               Lojistik Hizmetlerimiz
             </a>
           </li>
-          <li className="nav-item ms-1 ms-xxl-2">
+          <li className="nav-item ms-lg-1 ms-xxl-2">
             <a className="nav-link" href="#">
               Kariyer
             </a>
           </li>
-          <li className="nav-item ms-1 ms-xxl-2">
+          <li className="nav-item ms-lg-1 ms-xxl-2">
             <a className="nav-link" href="#">
               İletişim
             </a>
           </li>
-          <li className="nav-item ms-1 ms-xxl-2">
+          <li className="nav-item ms-lg-1 ms-xxl-2">
             <a className="nav-link" href="#">
               Blog
             </a>
           </li>
-          <li className="nav-item ms-1 ms-xxl-2">
+          <li className="nav-item ms-lg-1 ms-xxl-2">
             <a className="nav-link" href="#">
               TR
             </a>
