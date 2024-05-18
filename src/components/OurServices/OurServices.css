@@ -7,6 +7,7 @@
 #services-title {
   display: flex;
   flex-direction: column;
+  font-family: "Roboto", sans-serif;
 }
 
 #services-title > h3 {

@@ -26,7 +26,7 @@ const MobileMenu = () => {
 
       <ul className={`mobile-nav-list ${isOpen ? "open" : "closed"}`}>
         <li className="mobile-nav-item">
-          <a className="mobile-nav-link nav-link" href="#">
+          <a className="mobile-nav-link" href="#">
             Kurumsal
           </a>
         </li>
