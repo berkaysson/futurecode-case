@@ -15,6 +15,8 @@
   right: 0;
   object-fit: cover;
   transform: scale(1.05);
+  transition: transform 0.2s ease-in, left 0.4s ease-in, width 0.4s ease-in;
+  will-change: transfrom;
 }
 
 .vector {
@@ -25,6 +27,8 @@
   height: 45px;
   margin-bottom: 28px;
   margin-left: 37px;
+  transition: all 0.4s ease-in;
+  will-change: transform;
 }
 
 /* Variant 1 */
@@ -39,6 +43,7 @@
   background: rgba(231, 19, 57, 0.6);
   opacity: 1;
   visibility: visible;
+  transition: opacity 0.3s ease-in, visibility 0.4s ease-in;
 }
 
 .b-card-title {
@@ -64,6 +69,7 @@
   background: #e71339;
   opacity: 0;
   visibility: hidden;
+  transition: opacity 0.3s ease-in, visibility 0.4s ease-in;
 }
 
 .b-card-text {
