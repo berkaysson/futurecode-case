@@ -66,7 +66,7 @@
   bottom: 0;
   right: 0;
   width: 182px;
-  background: #e71339;
+  background: #002F74;
   opacity: 0;
   visibility: hidden;
   transition: opacity 0.3s ease-in, visibility 0.4s ease-in;
@@ -78,6 +78,7 @@
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
+  padding-right: 3px;
 }
 
 /* Hover */
