@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/futurecode-case/static/css/main.5143f972.css",
+    "main.js": "/futurecode-case/static/js/main.9a42a89a.js",
+    "static/media/slider1.png": "/futurecode-case/static/media/slider1.59bdb1b1204388451475.png",
+    "static/media/slider2.png": "/futurecode-case/static/media/slider2.b463b4e9816cf3295814.png",
+    "static/media/slider3.png": "/futurecode-case/static/media/slider3.e84fcc201ebcf416a6c4.png",
+    "static/media/rectangle-2996-resized.png": "/futurecode-case/static/media/rectangle-2996-resized.7e4355d85c9095065457.png",
+    "static/media/denizyolu.png": "/futurecode-case/static/media/denizyolu.400907d39c358780c5df.png",
+    "static/media/demiryolu.png": "/futurecode-case/static/media/demiryolu.0eb685b8b69010cb35e8.png",
+    "static/media/depolama.png": "/futurecode-case/static/media/depolama.a31b0fc7d08b5475cd79.png",
+    "static/media/karayolu.png": "/futurecode-case/static/media/karayolu.d225cbd4967168a45436.png",
+    "static/media/havayolu.png": "/futurecode-case/static/media/havayolu.f758a4d8aeaa2ff93033.png",
+    "static/media/sprint.png": "/futurecode-case/static/media/sprint.a8a3418bde9aa855184b.png",
+    "static/media/elojistik.png": "/futurecode-case/static/media/elojistik.58cc5a7e1abbf6aa3622.png",
+    "static/media/kontrat.png": "/futurecode-case/static/media/kontrat.1f86114886f23ede6c23.png",
+    "index.html": "/futurecode-case/index.html",
+    "main.5143f972.css.map": "/futurecode-case/static/css/main.5143f972.css.map",
+    "main.9a42a89a.js.map": "/futurecode-case/static/js/main.9a42a89a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5143f972.css",
+    "static/js/main.9a42a89a.js"
+  ]
+}
