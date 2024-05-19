@@ -24,6 +24,7 @@
   transition: visibility 0.5s ease-out;
   border-bottom: 2px solid #d4d4d4;
   padding-bottom: 24px;
+  z-index: -1;
 }
 
 .mobile-nav-list.open {
@@ -41,13 +42,21 @@
 }
 
 .mobile-nav-toggle {
-  border: none;
   background: none;
   cursor: pointer;
   padding: 10px;
   margin-right: 20px;
   font-size: 24px;
   color: #000;
+  border: 1px solid #d4d4d4;
+  width: 50px;
+  transition: color 0.2s ease-in-out, border 0.2s ease-in-out;
+  border-radius: 2px;
+}
+
+.mobile-nav-toggle:hover {
+  color: #2361ff;
+  border-color: #2361ffa4;
 }
 
 .mobile-nav-item {
