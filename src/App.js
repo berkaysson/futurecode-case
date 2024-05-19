@@ -19,7 +19,7 @@ function App() {
   }, []);
 
   return (
-    <div className="">
+    <div className="mb-5">
       {isMobile ?  <MobileMenu /> : <Menu />}
       <Slider />
       <OurServices />

@@ -15,12 +15,15 @@
   margin: 0;
   max-height: 0;
   opacity: 0;
+  -webkit-animation: slideUp 0.5s ease-out forwards;
   animation: slideUp 0.5s ease-out forwards;
   position: absolute;
   background: #f8f9fa;
   width: 100%;
   left: 0;
   visibility: hidden;
+  -webkit-transition: visibility 0.5s ease-out;
+  -o-transition: visibility 0.5s ease-out;
   transition: visibility 0.5s ease-out;
   border-bottom: 2px solid #d4d4d4;
   padding-bottom: 24px;
@@ -30,6 +33,7 @@
 .mobile-nav-list.open {
   max-height: 100%;
   opacity: 1;
+  -webkit-animation-name: slideDown;
   animation-name: slideDown;
   visibility: visible;
 }
@@ -37,6 +41,7 @@
 .mobile-nav-list.closed {
   max-height: 0;
   opacity: 0;
+  -webkit-animation-name: slideUp;
   animation-name: slideUp;
   visibility: hidden;
 }
@@ -50,6 +55,8 @@
   color: #000;
   border: 1px solid #d4d4d4;
   width: 50px;
+  -webkit-transition: color 0.2s ease-in-out, border 0.2s ease-in-out;
+  -o-transition: color 0.2s ease-in-out, border 0.2s ease-in-out;
   transition: color 0.2s ease-in-out, border 0.2s ease-in-out;
   border-radius: 2px;
 }
@@ -70,6 +77,8 @@
   text-decoration: none;
   font-size: 20px;
   padding: 10px;
+  -webkit-transition: color 0.3s ease-in-out;
+  -o-transition: color 0.3s ease-in-out;
   transition: color 0.3s ease-in-out;
   font-family: "Roboto", sans-serif;
 }
@@ -84,16 +93,48 @@
   }
 }
 
-@keyframes slideDown {
+@-webkit-keyframes slideDown {
   0% {
     max-height: 0;
     opacity: 0;
+    -webkit-transform: translateY(-50px);
     transform: translateY(-50px);
   }
   100% {
     max-height: 500px;
     opacity: 1;
+    -webkit-transform: translateY(0);
     transform: translateY(0);
+  }
+}
+
+@keyframes slideDown {
+  0% {
+    max-height: 0;
+    opacity: 0;
+    -webkit-transform: translateY(-50px);
+    transform: translateY(-50px);
+  }
+  100% {
+    max-height: 500px;
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+@-webkit-keyframes slideUp {
+  0% {
+    max-height: 500px;
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  100% {
+    max-height: 0;
+    opacity: 0;
+    -webkit-transform: translateY(-50px);
+    transform: translateY(-50px);
   }
 }
 
@@ -101,11 +142,13 @@
   0% {
     max-height: 500px;
     opacity: 1;
+    -webkit-transform: translateY(0);
     transform: translateY(0);
   }
   100% {
     max-height: 0;
     opacity: 0;
+    -webkit-transform: translateY(-50px);
     transform: translateY(-50px);
   }
 }

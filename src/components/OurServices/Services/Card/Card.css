@@ -13,9 +13,19 @@
   left: 0;
   bottom: 0;
   right: 0;
+  -o-object-fit: cover;
   object-fit: cover;
+  -webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
   transform: scale(1.05);
+  -webkit-transition: left 0.4s ease-in, width 0.4s ease-in,
+    -webkit-transform 0.2s ease-in;
+  transition: left 0.4s ease-in, width 0.4s ease-in,
+    -webkit-transform 0.2s ease-in;
+  -o-transition: transform 0.2s ease-in, left 0.4s ease-in, width 0.4s ease-in;
   transition: transform 0.2s ease-in, left 0.4s ease-in, width 0.4s ease-in;
+  transition: transform 0.2s ease-in, left 0.4s ease-in, width 0.4s ease-in,
+    -webkit-transform 0.2s ease-in;
   will-change: transfrom;
 }
 
@@ -27,6 +37,8 @@
   height: 37.171px;
   margin-bottom: 25px;
   margin-left: 31px;
+  -webkit-transition: all 0.4s ease-in;
+  -o-transition: all 0.4s ease-in;
   transition: all 0.4s ease-in;
   will-change: transform;
 }
@@ -43,6 +55,8 @@
   background: rgba(231, 19, 57, 0.6);
   opacity: 1;
   visibility: visible;
+  -webkit-transition: opacity 0.3s ease-in, visibility 0.4s ease-in;
+  -o-transition: opacity 0.3s ease-in, visibility 0.4s ease-in;
   transition: opacity 0.3s ease-in, visibility 0.4s ease-in;
 }
 
@@ -66,9 +80,11 @@
   bottom: 0;
   right: 0;
   width: 182px;
-  background: #002F74;
+  background: #002f74;
   opacity: 0;
   visibility: hidden;
+  -webkit-transition: opacity 0.3s ease-in, visibility 0.4s ease-in;
+  -o-transition: opacity 0.3s ease-in, visibility 0.4s ease-in;
   transition: opacity 0.3s ease-in, visibility 0.4s ease-in;
 }
 
@@ -86,6 +102,8 @@
 .service-card:hover .vector {
   width: 29.625px;
   height: 24.239px;
+  -webkit-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
   transform: rotate(-45deg);
   margin-bottom: 15px;
   margin-left: 10px;
@@ -104,5 +122,7 @@
 .service-card:hover .service-card-img {
   left: 182px;
   width: 126px;
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
   transform: scale(1);
 }

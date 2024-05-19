@@ -29,15 +29,23 @@
 }
 
 .btn-iletişim {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
   width: 200px;
   height: 50px;
+  -ms-flex-negative: 0;
   flex-shrink: 0;
   border-radius: 10px;
   border: 1px solid #fff;
   background: rgba(204, 204, 204, 0.5);
+  -webkit-backdrop-filter: blur(2px);
   backdrop-filter: blur(2px);
   color: #fff;
   font-size: 16px;
@@ -45,18 +53,26 @@
   line-height: normal;
   font-family: "Roboto", sans-serif;
   font-size: 16px;
+  -webkit-transition: background 0.3s, -webkit-transform 0.3s ease;
+  transition: background 0.3s, -webkit-transform 0.3s ease;
+  -o-transition: transform 0.3s ease, background 0.3s;
   transition: transform 0.3s ease, background 0.3s;
+  transition: transform 0.3s ease, background 0.3s, -webkit-transform 0.3s ease;
   will-change: transform;
 }
 
 .btn-iletişim-container:hover .btn-iletişim {
   background-color: #062d94;
+  -webkit-transform: translateY(-10px);
+  -ms-transform: translateY(-10px);
   transform: translateY(-10px);
 }
 
 /* Carousel Indicators */
 
 .carousel-indicators {
+  -webkit-box-pack: start !important;
+  -ms-flex-pack: start !important;
   justify-content: flex-start !important;
   margin-bottom: 48px !important;
 }
@@ -75,6 +91,8 @@
   position: absolute;
   top: 50%;
   left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   width: 12px;
   height: 12px;
@@ -100,14 +118,22 @@
 
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
+  -webkit-transition: -webkit-transform 0.4s ease-in-out;
+  transition: -webkit-transform 0.4s ease-in-out;
+  -o-transition: transform 0.4s ease-in-out;
   transition: transform 0.4s ease-in-out;
+  transition: transform 0.4s ease-in-out, -webkit-transform 0.4s ease-in-out;
 }
 
 .carousel-control-prev:hover .carousel-control-prev-icon {
+  -webkit-transform: translateX(-8px);
+  -ms-transform: translateX(-8px);
   transform: translateX(-8px);
 }
 
 .carousel-control-next:hover .carousel-control-next-icon {
+  -webkit-transform: translateX(8px);
+  -ms-transform: translateX(8px);
   transform: translateX(8px);
 }
 
@@ -161,6 +187,8 @@
 
   .carousel-control-prev,
   .carousel-control-next {
+    -webkit-transform: scale(0.5);
+    -ms-transform: scale(0.5);
     transform: scale(0.5);
   }
 
